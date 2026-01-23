@@ -184,6 +184,7 @@ A significant part of the data was dropped while trying to match the price, quan
 
 ### What I'd Do Differently
 I should've tracked time-of-day patterns more granularly. My analysis showed Friday was busiest, but I didn't break down which hours had the worst cash bottlenecks. Was it 12-1pm lunch rush? Or 8-9am coffee run?. If I'd captured that, I could've recommended targeted interventions like "digital-only express lane during 12-1pm" instead of blanket policies.
+
 Lesson: Averages hide opportunities. Next time, I'd drill down to 15-minute intervals.
 
 ---
