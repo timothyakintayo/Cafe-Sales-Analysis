@@ -148,6 +148,8 @@ Screenshots:
 ![Dashboard_Page_1](https://github.com/timothyakintayo/Cafe-Sales-Analysis/blob/main/Cafe_Sales_P1.png)
 ![Dashboard_Page_2](https://github.com/timothyakintayo/Cafe-Sales-Analysis/blob/main/Cafe_Sales_P2.png)
 
+---
+
 ### Key Insights
 - Top Product: Salad – highest transactions and revenue.
 - Peak Day (Transactions): Friday.
@@ -156,6 +158,8 @@ Screenshots:
 - Channel Preference: High-spending customers prefer in-store.
 - Revenue Peaks: January (monthly), Q1 (quarterly).
 - Customer Spend: 50% spend $4–12, 25% above $12, and 5% spend above $20.
+
+---
 
 ### Recommendations
 * **Action 1: Digital Payment Incentive:**
