@@ -14,7 +14,12 @@
 - [Limitations](#limitations)
   
 ### Introduction
-Justus Café was losing customers at the checkout because ash transactions dominated high-value purchases (33%), creating delays during peak hours. I analyzed 10,000 sales records to find where revenue was leaking and built a dashboard that showed the owner exactly where to intervene. 
+Justus Café was losing customers at the checkout because cash transactions dominated high-value purchases (33%), creating delays during peak hours. I analyzed 10,000 sales records to understand payment behavior, identify spending patterns, and build recommendations for operational improvements.
+
+---
+
+### **Why this matters:** 
+Cash handling is slower than digital payments. During peak hours, this creates bottlenecks that frustrate customers and limit transaction throughput.
 
 ---
 
@@ -27,8 +32,7 @@ Justus Café was losing customers at the checkout because ash transactions domin
    - Top seller (Salad) was rarely paired with drinks or sides.
   
 3. **The In-Store Advantage:**
-   - Dine-in customers spent 30% more than takeaway.But café was treating both channels identically (same menu, same service speed).
-   - Insight: The ambiance was already working, it just wasn't being leveraged.
+   - Dine-in customers spent more than takeaway. But café was treating both channels identically (same menu, same service speed).
 
 ---
 
@@ -162,8 +166,7 @@ Screenshots:
   - Target the 50% of customers spending $4-$12.
 
 * **Action 3: Dine-In Experience Premium:**
-  - Since in-store customers already spend more, enhance ambiance (music, seating, lighting).
-  - Create "dine-in exclusive" menu items.
+  - Since in-store customers spend more, than Cafe should Enhance dine-in experience (music, lighting, seating comfort) and create "dine-in exclusive" menu items to convert takeaway customers. Track channel-specific spend over 60 days to measure impact.
 
 * **Action 3: Leveraging the Day with most sales:**
   - Revenue Optimization: Leverage Fridays (highest traffic) for upselling campaigns.
