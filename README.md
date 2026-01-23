@@ -14,19 +14,18 @@
 - [Limitations](#limitations)
   
 ### Introduction
-Justus Café was losing customers at the checkout. Cash transactions dominated high-value purchases (33%), creating 2-3 minute delays during peak hours. On Fridays the busiest day with 150+ transactions an estimated 20-30 customers walked away rather than wait in line. I analyzed 10,000 sales records to find where revenue was leaking and built a dashboard that showed the owner exactly where to intervene. 
+Justus Café was losing customers at the checkout because ash transactions dominated high-value purchases (33%), creating delays during peak hours. I analyzed 10,000 sales records to find where revenue was leaking and built a dashboard that showed the owner exactly where to intervene. 
 
 ---
 
 ### The Problems Hidden in the Data
 1. **The Cash Bottleneck:**
    - 33% of purchases ≥$20 were paid in cash (vs. 37% digital wallet, 30% credit card).
-   - Cash transactions took 2-3x longer than card payments.
-   - Cost: 20-30 lost Friday transactions = $500-800/week in walked revenue.
+    
 2. **The Upselling Gap:**
    - 50% of customers spent only $4-$12.
    - Top seller (Salad) was rarely paired with drinks or sides.
-   - Missed opportunity: If 10% of low spenders added a $4 drink, that's $400-600/month in incremental revenue.
+  
 3. **The In-Store Advantage:**
    - Dine-in customers spent 30% more than takeaway.But café was treating both channels identically (same menu, same service speed).
    - Insight: The ambiance was already working, it just wasn't being leveraged.
@@ -154,26 +153,20 @@ Screenshots:
 - Revenue Peaks: January (monthly), Q1 (quarterly).
 - Customer Spend: 50% spend $4–12, 25% above $12, and 5% spend above $20.
 
-### Recommendations (with ROI)
+### Recommendations
 * **Action 1: Digital Payment Incentive:**
-  - Offer 5% discount on purchases >$15 paid via card/wallet,  speed-focused campaigns (“Skip the wait: Pay digitally”), and train staffs to promote cashless options during peak hours.
-  - Target cost: $150/mont.h
-  - Expected return: 40% shift from cash = 15-20 saved transactions/day = $1,200-1,600/month net gain.
+  - Offer 5% discount on purchases >$15 paid via card/wallet,  speed-focused campaigns (“Skip the wait: Pay digitally”), and train staffs to promote cashless options during peak hours. This could shift payment behavior and reduce queue times. Estimated revenue impact requires testing with pilot program to measure actual conversion rates and customer response.
 
 * **Action 2: Combo Upselling:**
   - Train staff to suggest "Salad + Juice" or "Sandwich + Coffee" combos
   - Target the 50% of customers spending $4-$12.
-  - Expected return: If 10% add a $4 item, that's $400-600/month in incremental revenue.
 
 * **Action 3: Dine-In Experience Premium:**
-  - Since in-store customers already spend 30% more, enhance ambiance (music, seating, lighting).
+  - Since in-store customers already spend more, enhance ambiance (music, seating, lighting).
   - Create "dine-in exclusive" menu items.
-  - Goal: Convert 20% of takeaway customers to dine-in = $800-1,000/month revenue lift
 
 * **Action 3: Leveraging the Day with most sales:**
   - Revenue Optimization: Leverage Fridays (highest traffic) for upselling campaigns.
-  
-Total potential impact: **$2,400-3,200/month** revenue recovery and growth.
   
 ---
 
