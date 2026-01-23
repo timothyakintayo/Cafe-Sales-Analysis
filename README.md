@@ -41,6 +41,9 @@ A two-page Excel dashboard (Power Query, Power Pivot, DAX) that tracked:
   - Customer spend segmentation (automated using INDEX/MATCH).
 
 Technical approach: Star schema with fact table (transactions) and dimension tables (products, payment methods, time). DAX measures for revenue trends, averages, and conditional segmentation.
+
+---
+
 ### Data Sources
 Café Sales Data: The primary dataset used for this is analysis is the "dirty_cafe_sales.csv" dataset obtained from [Kaggle](https://www.kaggle.com/datasets/ahmedmohamed2003/cafe-sales-dirty-data-for-cleaning-training?resource=download), containing information about the sales made by Justus Café. The dataset consist of 10000 rows and 12 columns.
 
@@ -153,22 +156,22 @@ Screenshots:
 
 ### Recommendations (with ROI)
 * **Action 1: Digital Payment Incentive:**
-- Offer 5% discount on purchases >$15 paid via card/wallet,  speed-focused campaigns (“Skip the wait: Pay digitally”), and train staffs to promote cashless options during peak hours.
-- Target cost: $150/mont.h
-- Expected return: 40% shift from cash = 15-20 saved transactions/day = $1,200-1,600/month net gain.
+  - Offer 5% discount on purchases >$15 paid via card/wallet,  speed-focused campaigns (“Skip the wait: Pay digitally”), and train staffs to promote cashless options during peak hours.
+  - Target cost: $150/mont.h
+  - Expected return: 40% shift from cash = 15-20 saved transactions/day = $1,200-1,600/month net gain.
 
 * **Action 2: Combo Upselling:**
-- Train staff to suggest "Salad + Juice" or "Sandwich + Coffee" combos
-- Target the 50% of customers spending $4-$12.
-- Expected return: If 10% add a $4 item, that's $400-600/month in incremental revenue.
+  - Train staff to suggest "Salad + Juice" or "Sandwich + Coffee" combos
+  - Target the 50% of customers spending $4-$12.
+  - Expected return: If 10% add a $4 item, that's $400-600/month in incremental revenue.
 
 * **Action 3: Dine-In Experience Premium:**
-- Since in-store customers already spend 30% more, enhance ambiance (music, seating, lighting).
-- Create "dine-in exclusive" menu items.
-- Goal: Convert 20% of takeaway customers to dine-in = $800-1,000/month revenue lift
+  - Since in-store customers already spend 30% more, enhance ambiance (music, seating, lighting).
+  - Create "dine-in exclusive" menu items.
+  - Goal: Convert 20% of takeaway customers to dine-in = $800-1,000/month revenue lift
 
 * **Action 3: Leveraging the Day with most sales:**
-- Revenue Optimization: Leverage Fridays (highest traffic) for upselling campaigns.
+  - Revenue Optimization: Leverage Fridays (highest traffic) for upselling campaigns.
   
 Total potential impact: **$2,400-3,200/month** revenue recovery and growth.
   
